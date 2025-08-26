@@ -6,8 +6,13 @@ This repository contains a workflow to fine-tune a **Large Language Model (LLM)*
 -  **[TRL](https://github.com/huggingface/trl)** → `SFTTrainer` for supervised fine-tuning  
 
 The training pipeline supports **Complex Chain-of-Thought (CoT) reasoning** and can be adapted to other instruction-tuning tasks.
+This repository demonstrates how to fine-tune the **[unsloth/DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B)** model on a **medical reasoning dataset**
 
 ---
+##  Dataset
+
+We use the **[FreedomIntelligence/medical-o1-reasoning-SFT](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT)**
+
 
 ##  Dataset Structure
 
